@@ -3,9 +3,10 @@ package com.Coop.Proyecto.Cooperativa.servicios;
 import com.Coop.Proyecto.Cooperativa.entidades.Cliente;
 import com.Coop.Proyecto.Cooperativa.repositorio.RepositorioCliente;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class ServicioImpCliente implements ServicioCliente{
     @Autowired
     private RepositorioCliente repositorioCliente;
